@@ -46,14 +46,14 @@ At a very high-level, we want
 * Use soft tabs (2 spaces) for indentation
 * Prefer dashes over camelCasing in class names. Underscores are OK if you're using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
 * Do not use ID selectors
-* When using multiple selectors in a rule declaration, give each selector its own line.
+* When using multiple selectors in a rule declaration, give each selector its own line. (except when they are related selectors?)
 * Put a space before the opening brace `{` in rule declarations
 * In properties, put a space after, but not before, the `:` character.
 * Put closing braces `}` of rule declarations on a new line
 * Put blank lines between rule declarations
 * 80 character wide columns
-* Multi-line CSS
-* Meaningful use of whitespace
+* Multi-line CS
+* Meaningful use of whitespace (not very clear)
 
 But, as with anything, the specifics are somewhat irrelevant—consistency is key.
 
@@ -260,7 +260,7 @@ As well as indenting individual declarations, indent entire related rulesets to 
         .foo__baz {}
 ```
 
-By doing this, a developer can see at a glance that `.foo__baz {}` lives inside `.foo__bar {}` lives inside `.foo {}`.
+By doing this, a developer can see at a glance that `.foo__baz {}` lives inside `.foo__bar {}` which lives inside `.foo {}`.
 
 This quasi-replication of the DOM tells developers a lot about where classes are expected to be used without them having to refer to a snippet of HTML.
 
