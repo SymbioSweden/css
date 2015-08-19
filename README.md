@@ -46,14 +46,14 @@ At a very high-level, we want
 * Use soft tabs (2 spaces) for indentation
 * Prefer dashes over camelCasing in class names. Underscores are OK if you're using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
 * Do not use ID selectors
-* When using multiple selectors in a rule declaration, give each selector its own line. (except when they are related selectors?)
+* When using multiple selectors in a rule declaration, give each selector its own line.
 * Put a space before the opening brace `{` in rule declarations
 * In properties, put a space after, but not before, the `:` character.
 * Put closing braces `}` of rule declarations on a new line
 * Put blank lines between rule declarations
 * 80 character wide columns
-* Multi-line CS
-* Meaningful use of whitespace (not very clear)
+* Multi-line CSS
+* [Meaningful use of whitespace](#whitespace)
 
 But, as with anything, the specifics are somewhat irrelevant—consistency is key.
 
@@ -167,6 +167,8 @@ The title of the section is prefixed with a hash (`#`) symbol to allow us to per
 Leave a carriage return between this title and the next line of code (be that a comment, some Sass, or some CSS).
 
 If you are working on a project where each section is its own file, this title should appear at the top of each one. If you are working on a project with multiple sections per file, each title should be preceded by five (5) carriage returns. This extra whitespace coupled with a title makes new sections much easier to spot when scrolling through large files:
+
+<div id="whitespace"></div>
 
 ```css
 /*------------------------------------*\
