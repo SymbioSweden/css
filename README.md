@@ -46,7 +46,6 @@ At a very high-level, we want
 * Use soft tabs (2 spaces) for indentation
 * Prefer dashes over camelCasing in class names. Underscores are OK if you're using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
 * Do not use ID selectors
-* When using multiple selectors in a rule declaration, give each selector its own line.
 * Put a space before the opening brace `{` in rule declarations
 * In properties, put a space after, but not before, the `:` character.
 * Put closing braces `}` of rule declarations on a new line
